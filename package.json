@@ -1,9 +1,8 @@
 {
-  "name": "react-big-calendar",
-  "version": "0.10.3",
+  "name": "leyserplus-react-big-calendar",
+  "version": "0.1.0",
   "description": "Calendar! with events",
   "author": "Jason Quense <monastic.panic@gmail.com>",
-  "repository": "intljusticemission/react-big-calendar",
   "license": "MIT",
   "main": "lib/index.js",
   "style": "lib/css/react-big-calendar.css",
@@ -107,5 +106,10 @@
     "react-prop-types": "^0.2.1",
     "uncontrollable": "^3.1.0",
     "warning": "^2.0.0"
-  }
+  },
+  "repository": {
+    "type":"git",
+    "url":"git://github.com/LeyserPlusCommon/react-big-calendar.git#beta"
+  },
+  "bugs": { "url": "https://github.com/LeyserPlusCommon/react-big-calendar/issues" }
 }
