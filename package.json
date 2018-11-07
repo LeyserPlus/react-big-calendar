@@ -108,8 +108,15 @@
     "warning": "^2.0.0"
   },
   "repository": {
-    "type":"git",
-    "url":"git://github.com/LeyserPlusCommon/react-big-calendar.git#beta"
+    "type": "git",
+    "url": "git://github.com/LeyserPlusCommon/react-big-calendar.git#beta"
   },
-  "bugs": { "url": "https://github.com/LeyserPlusCommon/react-big-calendar/issues" }
+  "bugs": {
+    "url": "https://github.com/LeyserPlusCommon/react-big-calendar/issues"
+  },
+  "homepage": "https://github.com/LeyserPlusCommon/react-big-calendar/tree/beta#readme",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  }
 }
