@@ -1,6 +1,6 @@
 {
   "name": "leyserplus-react-big-calendar",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Calendar! with events",
   "author": "Jason Quense <monastic.panic@gmail.com>",
   "license": "MIT",
@@ -117,6 +117,7 @@
   "homepage": "https://github.com/LeyserPlusCommon/react-big-calendar/tree/beta#readme",
   "directories": {
     "example": "examples",
+    "lib": "lib",
     "test": "test"
   }
 }
