@@ -21,7 +21,7 @@ import BackgroundCells from './BackgroundCells';
 import { dateFormat } from './utils/propTypes';
 import {
     segStyle, inRange, eventSegments
-  , endOfRange, eventLevels, sortEvents } from './utils/eventLevels';
+  , endOfRange, eventLevels} from './utils/eventLevels';
 
 let eventsForWeek = (evts, start, end, props) =>
   evts.filter(e => inRange(e, start, end, props));
@@ -137,9 +137,6 @@ let MonthView = React.createClass({
   renderWeek(week, weekIdx, content) {
     let { first, last } = endOfRange(week);
     let evts = eventsForWeek(this.props.events, week[0], week[week.length - 1], this.props)
-
-    evts.sort((a, b) => sortEvents(a, b, this.props))
-
     let segments = evts = evts.map(evt => eventSegments(evt, first, last, this.props))
     let limit = (this.state.rowLimit - 1) || 1;
 
